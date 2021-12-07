@@ -47,8 +47,6 @@ namespace Exercise_3
             }
             Console.ReadLine();
 
-            //TODO: Далее выводим результаты разработанных LINQ запросов
-
             System.Console.WriteLine("Завершение работы приложения-банкомата...");
         }
 
@@ -154,7 +152,6 @@ namespace Exercise_3
                     .ToList();
                 return result;
             }
-            //TODO: Добавить методы получения данных для банкомата
         }
 
         public class ATMDataContext
